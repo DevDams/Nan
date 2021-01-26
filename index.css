@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #394460;
+}
+
+.container {
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 95%;
+    height: 95vh;
+    background-color: #f4f7ff;
+    border-radius: 30px;
+}
+
+.nav_bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 30px;
+}
+
+.logo {
+    width: 32%;
+    margin-left: 45px;
+}
+
+.logo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.nav_link ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.nav_link ul .login {
+    color: #f2f2f2;
+    background-color: #394460;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+
+.nav_link ul .get_started {
+    color: #f2f2f2;
+    background-color: #f8a801;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+
+
+.heading {
+    display: flex;
+    margin-top: 260px;
+}
+
+.left_box {
+    width: 40%;
+    margin: 40px;
+}
+
+.left_box h1 {
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #394360;
+    line-height: 0.9em;
+}
+
+.left_box h1 span {
+    font-weight: 100;
+}
+
+.left_box p {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #646464;
+}
+
+.btn {
+    display: inline;
+}
+
+.btn button {
+    width: 130px;
+    margin: 10px;
+    margin-left: -30px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn button span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 600;
+}
+
+
+
+.bottom {
+    display: flex;
+    margin-top: -50px;
+}
+
+.bottom h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #394360;
+    font-size: 30px;
+}
+
+.bottom p {
+    margin-top: 10px;
+}
+
+.bottom img {
+    width: 200px;
+    margin-top: -30px;
+}
+
+.bottom button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: 180px;
+    margin-right: 40px;
+    margin-top: 0;
+    padding: 5px;
+    background: #ffaa27;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+.right_box img {
+    width: 600px;
+    margin-top: -120px;
+    margin-right: 10px;
+}
