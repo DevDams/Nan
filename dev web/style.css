@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    top: 40px;
+    color: white;
+    z-index: 99;
+}
+
+.menu ul li {
+    display: inline;
+    list-style: none;
+    margin: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    opacity: .6;
+}
+
+.menu ul li.active {
+    opacity: 1;
+}
+
+.button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    top: 40px;
+    right: 40px;
+}
+
+button {
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    opacity: .6;
+    border: none;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre {
+    background-color: #FEC56D;
+}
+
+.velo_1 {
+    background: url(images/night.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #000;
+}
+
+.velo_2 {
+    background: url(images/traveler.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F4D0AC;
+}
+
+
+.velo_3 {
+    background: url(images/weirdo.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #B0DEED;
+}
+
+.velo_4 {
+    background: url(images/hipser.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F79BC0;
+}
+
+.velo_5 {
+    background: url(images/swagger.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #ABE7F4;
+}
+
+.velo_6 {
+    background: url(images/vintage.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F8D5B9;
+}
+
+.velo_7 {
+    background: url(images/grandpa.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #A0E3FE;
+}
+
+.velo_8 {
+    background: url(images/tandem.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F8CA7D;
+}
+
+.velo_9 {
+    background: url(images/babydoll.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #FBDFF8;
+}
+
+.velo_10 {
+    background: url(images/cougar.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #C6DEFF;
+}
+
+.velo_11 {
+    background: url(images/freestyler.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #91F9D4;
+}
+
+.velo_12 {
+    background: url(images/gangsta.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F8C075;
+}
+
+.velo_13 {
+    background: url(images/lilgangsta.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #FFD4AA;
+}
+
+.velo_14 {
+    background: url(images/runner.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #B3FAD8;
+}
+
+.velo_15 {
+    background: url(images/rigidguy.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #DBDBDB;
+}
+
+.velo_16 {
+    background: url(images/warrior.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #FDDDAE;
+}
+
+.velo_17 {
+    background: url(images/lazyguy.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #FB9D79;
+}
+
+.velo_18 {
+    background: url(images/fake.jpg) no-repeat fixed;
+    background-size: 1100px;
+    background-position: 50% 30px;
+    padding-top: 250px;
+    background-color: #F69890;
+}
+
+.share_btn {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+.share_btn i {
+    font-size: 45px;
+    color: white;
+    opacity: .5 ;
+}
