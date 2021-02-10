@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero {
+    width: 1250px;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    background-color: #fdf8f8;
+}
+
+
+/* Boite de gauche */
+.left_box {
+    width: 55%;
+    padding: 50px 110px;
+}
+
+.left_box .logo {
+    display: flex;
+}
+
+.left_box .logo .circle {
+    border: 3px solid #DFBBC0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.left_box .logo p {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.left_box .content {
+    margin-top: 100px;
+}
+
+.left_box .content h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 12px;
+}
+
+.left_box .content h1 span {
+    font-weight: 300;
+    color: #c99a9d;
+}
+
+.left_box .content p {
+    margin-top: 30px;
+    color: rgb(75, 75, 75);
+}
+
+.left_box .content input {
+    position: relative;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #c99a9d;
+    background-color: #fdf8f8;
+    outline: none;
+    width: 80%;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.left_box .content input::placeholder {
+    color: red;
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left_box .content .form span {
+    position: relative;
+    left: -75px;
+    padding: 17px 30px;
+    background-color: #E49F9B;
+    color: white;
+    border-radius: 30px;
+}
+
+
+/* Box de droite */
+.right_box {
+    width: 45%;
+}
+
+.right_box img {
+    width: 100%;
+    height: 100%;
+}

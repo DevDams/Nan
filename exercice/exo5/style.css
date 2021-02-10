@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2FAFB;
+}
+
+.timeline {
+    width: 900px;
+    margin: auto;
+}
+
+.header {
+    background-color: #6FA2A4;
+    height: 100px;
+}
+
+.timeline_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #FEFFFF;
+    box-shadow: 0 10px 10px -12px #79B8BA;
+}
+
+.border {
+    border-left: 4px solid #96B7B5;
+}
+
+.item_left {
+    display: flex;
+    align-items: center;
+}
+
+.item_left_text p.tag {
+    color: #79B8BA;
+}
+
+.item_left_text p {
+    color: #8f8f8f;
+}
+
+.item_left_text .one {
+    background-color: #82A9AB;
+    color: white;
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.item_left_text .two {
+    background-color: #3E4141;
+    color: white;
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+img {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.item_right {
+    margin-right: 30px;
+}
+
+.item_right .tag {
+    background-color: #E7F3F3;
+    color: #7f9292;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+}
